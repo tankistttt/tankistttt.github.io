@@ -1,11 +1,9 @@
-
-
 ## Overview
 this chellenge help me to improve my skills in css, especially when I was making hover animations on image.
 
 ### Screenshot
 
-[(/design/Screenshot%202023-09-10%20at%2019-05-25%20Frontend%20Mentor%20NFT%20preview%20card%20component.png)]
+[/design/Screenshot%202023-09-10%20at%2019-05-25%20Frontend%20Mentor%20NFT%20preview%20card%20component.png]
 
 
 ### Built with

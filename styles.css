@@ -118,7 +118,7 @@ hr {
      max-height: 302px;
      background-color: #00FFF8;
      border-radius: 8px;
-
+     display: flex;
 }
 .eye {
     position: absolute;

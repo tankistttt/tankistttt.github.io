@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*!global styles */
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family:'Outfit', sans-serif;
+}
+body{
+     background-color: #0D192C;
+      height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ /**main styles**/
+
+main {
+     width: 350px;
+     background-color: #15263F;
+     border-radius: 15px;
+     box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+     box-sizing: border-box;
+     padding: 24px;
+    
+}
+/*?figure styles*/
+
+figure > .img-cover > img:first-of-type {
+     width: 100%;
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+figure > figcaption > h1 {
+     color: #fff;
+     font-size: 22px;
+     font-weight: 600;
+     margin-top: 24px;
+     cursor: pointer;
+}
+/* p */
+
+p {
+     color: #8BACD9;
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 26px;
+     margin-top: 16px;
+}
+ /*?etherium info*/
+
+.etherium-info-container {
+     display: flex; 
+     justify-content: space-between;
+     margin-block: 24px;
+}
+.etherium-info-container span {
+     display: flex;
+     align-self: flex-start;
+}
+.etherium {
+     gap: 6.5px; 
+   
+}
+.days-left {
+     gap: 7.7px;
+}
+.etherium > h5 {
+     color: #00FFF8;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.days-left > h5 {
+     color: #8BACD9;
+     font-size: 16px;
+}
+/**hr**/
+
+hr {
+     height: 1px;
+     background-color: #2E405A;
+     border: none;
+}
+/* ?design author */
+
+.author-of-design {
+     display: flex;
+     align-items: center;
+     margin-top: 16px;
+     padding-bottom: 8px;
+}
+.author-of-design img {
+     box-sizing: border-box;
+     width: 33px;
+     border: 1px solid  #fff;
+     border-radius: 33px;
+     background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+}
+.author-of-design h6 {
+     font-size: 16px;
+     color:#8BACD9;
+     margin-left: 16px;
+}
+.author-of-design h6 .author {
+     color:#fff;
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+/*^ animations */
+.img-cover { 
+     position: relative;
+     width: 100%;
+     max-height: 302px;
+     background-color: #00FFF8;
+     border-radius: 8px;
+
+}
+.eye {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    visibility: hidden;
+    cursor: pointer;
+}
+
+figure > .img-cover > img:first-of-type:hover{
+     opacity: 0.5;
+}
+figure > .img-cover:hover .eye{
+     visibility: visible;
+
+}
+figure > figcaption > h1:hover,
+.author-of-design h6 .author:hover{
+     color:#00FFF8;
+}
+
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     display: none; 
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }

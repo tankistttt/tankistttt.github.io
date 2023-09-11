@@ -68,13 +68,13 @@ p {
 .days-left {
      gap: 7.7px;
 }
-.etherium > h5 {
+.etherium > h2 {
      color: #00FFF8;
      font-size: 16px;
      font-weight: 600;
 }
 
-.days-left > h5 {
+.days-left > h2 {
      color: #8BACD9;
      font-size: 16px;
 }

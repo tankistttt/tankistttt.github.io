@@ -57,7 +57,7 @@ p {
      justify-content: space-between;
      margin-block: 24px;
 }
-.etherium-info-container span {
+.etherium-info-container div {
      display: flex;
      align-self: flex-start;
 }
